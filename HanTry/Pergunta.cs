@@ -28,7 +28,7 @@ namespace HanTry
         // função para validar as respostas dadas pelos usuários 
         public Boolean ValidaResposta(string respostaUsuario, string respostaSistema) {
             return respostaUsuario.Equals(respostaSistema) ? true : false;
-        }
+        } 
 
 
     }

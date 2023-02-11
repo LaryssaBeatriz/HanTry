@@ -181,6 +181,7 @@
     <Content Include="assets\lupa_pesquisa.png" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="Models\index.aspx" />
     <Content Include="telaConteudo.html" />
     <Content Include="telaFeedback.html" />
     <Content Include="telaHomeConteudo.html" />
@@ -189,6 +190,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pergunta.cs" />
     <Compile Include="QuizDB.cs" />
     <Compile Include="Global.asax.cs">
@@ -209,7 +217,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
