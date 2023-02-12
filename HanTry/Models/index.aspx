@@ -37,10 +37,12 @@
                 </div>
 
                 <div id="wrapper-quiz-opcoes">
-                    <asp:Button runat="server" type="submit" class="opcao" id="opcao1"> <img src="/assets/img-simulator.png"></asp:Button>
-                    <asp:Button runat="server" type="submit" class="opcao" id="opcao2"> <img src="/assets/img-simulator.png"></asp:Button>
-                    <asp:Button runat="server" type="submit" class="opcao" id="opcao3"> <img src="/assets/img-simulator.png"></asp:Button>
-                    <asp:Button runat="server" type="submit" class="opcao" id="opcao4"> <img src="/assets/img-simulator.png"></asp:Button>
+                    <form runat="server">
+                        <asp:Button runat="server" type="submit" class="opcao" id="opcao1"> </asp:Button>
+                        <asp:Button runat="server" type="submit" class="opcao" id="opcao2"> </asp:Button>
+                        <asp:Button runat="server" type="submit" class="opcao" id="opcao3"> </asp:Button>
+                        <asp:Button runat="server" type="submit" class="opcao" id="opcao4"> </asp:Button>
+                    </form>
                 </div>
             </div>
                     

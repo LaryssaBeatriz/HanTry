@@ -121,3 +121,4 @@ C:\Users\bia-n\HanTry\HanTry\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\bia-n\HanTry\HanTry\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\bia-n\HanTry\HanTry\obj\Debug\HanTry.dll
 C:\Users\bia-n\HanTry\HanTry\obj\Debug\HanTry.pdb
+C:\Users\bia-n\HanTry\HanTry\obj\Debug\HanTry.csproj.CopyComplete

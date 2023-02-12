@@ -1,0 +1,9 @@
+﻿# Ignora a pasta de propriedades 
+Properties
+
+# Ignora a pasta bin
+bin 
+
+# Ignora o obj/ Debug
+obj/Debug
+
