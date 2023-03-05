@@ -7,3 +7,11 @@ bin
 # Ignora o obj/ Debug
 obj/Debug
 
+# Ignora a pasta de pacotes
+packages
+
+# Ignora o v16 do HanTry 
+.vs\HanTry\v16
+
+
+
